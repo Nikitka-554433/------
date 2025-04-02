@@ -4,7 +4,7 @@ class User:
         self.username = username
         self.email = email
         self.password_hash = password_hash
-        self.role = role  # Добавлено новое поле
+        self.role = role
 
     def get_role(self) -> str:
-        return self.role  # Новый геттер для роли пользователя
+        return self.role

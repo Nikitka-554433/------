@@ -1,3 +1,5 @@
+from results import PredictionResult
+
 class TransactionHistory:
     def __init__(self):
         self.transactions = []
